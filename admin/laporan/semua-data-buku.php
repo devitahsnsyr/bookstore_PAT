@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Admin</title>
+  </head>
+  <body>
+    <div class="container" style="margin-top: 2%;">
+        <div class="card">
+            <div class="card-header">
+            <p style="font-size: 20px;">Laporan Semua Buku</p>
+            <a class="nav-link" href="../admin.php" tabindex="-1" style="color:black; margin-left:90%; margin-top:-4%" >Back</a>
+            </div>
+            <div class="card-body" >
+            <a href="#" type="button" class="btn btn-primary">Cetak</a>
+            <a href="#" type="button" class="btn btn-success">Export Excel</a>
+            <table align="center" border="1" class="table table-bordered mt-4">
+                <tr>
+                    <th>No</th>
+                    <th>Kode Buku</th>
+                    <th>Judul</th>
+                    <th>NO ISBN</th>
+                    <th>Penulis</th>
+                    <th>Penerbit</th>
+                    <th>Stok</th>
+                    <th>Harga Pokok</th>
+                    <th>Harga Jual</th>
+                    <th>PPN</th>
+                    <th>Diskon</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>F1000000JH</td>
+                    <td>Harry Potter</td>
+                    <td>BQ00001</td>
+                    <td>Devita</td>
+                    <td>Gramedia</td>
+                    <td>40</td>
+                    <td>50.000 </td>
+                    <td>95.000</td>
+                    <td>5%</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>F1000000Hn</td>
+                    <td>Harry</td>
+                    <td>BQ00002</td>
+                    <td>Deviy</td>
+                    <td>Gramedia</td>
+                    <td>80</td>
+                    <td>50.000 </td>
+                    <td>95.000</td>
+                    <td>5%</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>F1000000AL</td>
+                    <td>Potter</td>
+                    <td>BQ00003</td>
+                    <td>Dani</td>
+                    <td>Gramedia</td>
+                    <td>12</td>
+                    <td>20.000 </td>
+                    <td>50.000</td>
+                    <td>4%</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>F1000000JK</td>
+                    <td>Hujan</td>
+                    <td>BQ00004</td>
+                    <td>Mia</td>
+                    <td>Gramedia</td>
+                    <td>3</td>
+                    <td>50.000 </td>
+                    <td>95.000</td>
+                    <td>5%</td>
+                    <td>10%</td>
+                </tr>
+                         
+            </table>                       
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
